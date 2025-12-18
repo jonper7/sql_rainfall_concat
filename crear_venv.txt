@@ -1,0 +1,15 @@
+# Crear entorno virtual
+python -m venv venv
+
+# Activar
+venv\Scripts\activate
+
+
+# Instalar solo lo necesario
+pip install pandas
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Generar requirements.txt limpio
+pip freeze > requirements.txt
